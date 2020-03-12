@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [extentsuite]">
+  <test thread-count="5" name="extentreport(failed)">
+    <classes>
+      <class name="ExtentReport">
+        <methods>
+          <include name="setUpExtentReport"/>
+          <include name="f"/>
+          <include name="TearDownExtentReport"/>
+          <include name="endextentTest"/>
+        </methods>
+      </class> <!-- ExtentReport -->
+    </classes>
+  </test> <!-- extentreport(failed) -->
+</suite> <!-- Failed suite [extentsuite] -->

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17105" started-at="2020-03-12T19:08:36 IST" finished-at="2020-03-12T19:08:53 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17105" started-at="2020-03-12T19:08:36 IST" finished-at="2020-03-12T19:08:53 IST">
+      <class name="UserStorytestCases.SearchingForDifferentBookingOptions">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UserStorytestCases.SearchingForDifferentBookingOptions@7181ae3f]" name="setUp" is-config="true" duration-ms="12234" started-at="2020-03-12T19:08:36 IST" finished-at="2020-03-12T19:08:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyNoOfPersonsField()[pri:0, instance:UserStorytestCases.SearchingForDifferentBookingOptions@7181ae3f]" name="verifyNoOfPersonsField" duration-ms="66" started-at="2020-03-12T19:08:48 IST" finished-at="2020-03-12T19:08:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoOfPersonsField -->
+        <test-method status="PASS" signature="verifyNoOfPersonsFieldDropDown()[pri:0, instance:UserStorytestCases.SearchingForDifferentBookingOptions@7181ae3f]" name="verifyNoOfPersonsFieldDropDown" duration-ms="145" started-at="2020-03-12T19:08:49 IST" depends-on-methods="UserStorytestCases.SearchingForDifferentBookingOptions.verifyNoOfPersonsField" finished-at="2020-03-12T19:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoOfPersonsFieldDropDown -->
+        <test-method status="PASS" signature="VerifyMaximumValueForRoomsAndOccupancies()[pri:0, instance:UserStorytestCases.SearchingForDifferentBookingOptions@7181ae3f]" name="VerifyMaximumValueForRoomsAndOccupancies" duration-ms="67" started-at="2020-03-12T19:08:49 IST" depends-on-methods="UserStorytestCases.SearchingForDifferentBookingOptions.verifyNoOfPersonsFieldDropDown" finished-at="2020-03-12T19:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMaximumValueForRoomsAndOccupancies -->
+        <test-method status="PASS" signature="VerifyMinimumValueForRoomsAndOccupancies()[pri:0, instance:UserStorytestCases.SearchingForDifferentBookingOptions@7181ae3f]" name="VerifyMinimumValueForRoomsAndOccupancies" duration-ms="47" started-at="2020-03-12T19:08:49 IST" depends-on-methods="UserStorytestCases.SearchingForDifferentBookingOptions.verifyNoOfPersonsFieldDropDown" finished-at="2020-03-12T19:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMinimumValueForRoomsAndOccupancies -->
+        <test-method status="PASS" signature="VerifydefaultsInPersonsFieldDropDown()[pri:0, instance:UserStorytestCases.SearchingForDifferentBookingOptions@7181ae3f]" name="VerifydefaultsInPersonsFieldDropDown" duration-ms="46" started-at="2020-03-12T19:08:49 IST" depends-on-methods="UserStorytestCases.SearchingForDifferentBookingOptions.verifyNoOfPersonsFieldDropDown" finished-at="2020-03-12T19:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifydefaultsInPersonsFieldDropDown -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:UserStorytestCases.SearchingForDifferentBookingOptions@7181ae3f]" name="CloseDriver" is-config="true" duration-ms="4316" started-at="2020-03-12T19:08:49 IST" finished-at="2020-03-12T19:08:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- UserStorytestCases.SearchingForDifferentBookingOptions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
